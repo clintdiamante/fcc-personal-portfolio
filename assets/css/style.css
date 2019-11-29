@@ -1,0 +1,94 @@
+/* CSS Rules */
+	* {
+ 		padding: 0;
+ 		margin: 0;
+ 		box-sizing: border-box;
+ 	}
+
+/* General Rules */
+	body {
+		background-color: #FFF;
+		color: #000;
+
+		font-family: 'Karla', sans-serif;
+	}
+
+	section {
+			min-height: 100vh;
+			width: auto;
+	}
+
+	/* Sub Navbar */
+		.sub-navbar > ul {
+			list-style: none;
+			margin-bottom: 5px;
+		}
+
+		.sub-navbar > ul > li {
+			display: inline;
+		}
+
+		.sub-navbar-link:hover {
+			cursor: pointer;
+			text-decoration: underline;
+		}
+
+		.fa-angle-left {
+			font-size: 12px;
+		}
+
+/* Welcome Section*/
+	#welcome-section {
+		background-color: #1B1B1B; /* eerie black */
+		color: #FFA807; /* mandarin orange */
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		text-align: center;
+	}
+
+	#welcome-text > h1 {
+		margin-bottom: 5px;
+	}
+
+	#welcome-text > p {
+		margin-bottom: 0;
+	}
+
+	#welcome-text > p:nth-child(4) {
+		color: #FFF;
+		margin-top: 20px;
+	}
+
+	#welcome-nav {
+		text-transform: uppercase;
+		list-style: none;
+
+		color: #A9A9A9;
+
+		font-size: 15px;
+
+		margin-top: 20px;
+	}
+
+	#welcome-nav > li:first-child,
+	#welcome-nav > li:nth-child(2) {
+		margin-bottom: 10px;
+	}
+
+	.welcome-nav-links:hover {
+		cursor: pointer;
+		text-decoration: underline;
+	}
+
+/* Project Section */
+	#projects {
+		background-color: #FFF;
+		padding: 40px;
+	}
+
+	#projects > h3 {
+
+	}
