@@ -77,11 +77,23 @@
 				<p><i class="fas fa-code"></i></p>
 				<ul id="welcome-nav">
 					<li class="welcome-nav-links" id="nav-link-projects">
-						Projects</li>
-					<li class="welcome-nav-links" id="nav-link-about">
-						About</li>
+						<span class="project-list-hidden">
+							<i class="fas fa-angle-right"></i>
+						</span>	
+						Projects
+						<span class="project-list-hidden">
+							<i class="fas fa-angle-left"></i>
+						</span>	
+					</li>
 					<li class="welcome-nav-links" id="nav-link-contact">
-						Contact</li>
+						<span class="project-list-hidden">
+							<i class="fas fa-angle-right"></i>
+						</span>	
+						Contact
+						<span class="project-list-hidden">
+							<i class="fas fa-angle-left"></i>
+						</span>	
+					</li>
 				</ul>
 			</div>
 		</section>
@@ -93,23 +105,15 @@
 					<nav id="navbar" class="sub-navbar">
 						<ul>
 							<li>
-								<a href="#">
-									<i class="fas fa-angle-left"></i> 
-									<span class="sub-navbar-link sub-navbar-link-welcome">
-									Back</span> |
-								</a>
+								<i class="fas fa-angle-left"></i> 
+								<a id="projects-sub-navbar-back" class="sub-navbar-link" href="#">
+									Back
+								</a> 
 							</li>
-							<li>
-								<span class="sub-navbar-link sub-navbar-link-about">
-								About</span> | 
-							</li>
-							<li>
-								<span class="sub-navbar-link sub-navbar-link-contact">
-								Contact</span> 
-								</li>
 						</ul>
 					</nav>
 				</div>
+
 				<div class="col-lg-4">
 					<h3>My Projects</h3>
 					<ul id="projects-view-style">
@@ -117,6 +121,7 @@
 						<li id="projects-compact">Compact</li>
 					</ul>
 				</div>
+
 				<div class="col-lg-4">
 					
 				</div>
@@ -220,7 +225,7 @@
 
 			<div id="projects-compact-view">
 				<hr>
-				<p>freeCodeCamp</p>
+				<!-- <p>freeCodeCamp</p> -->
 				<ul id="project-list">
 					<li>
 						<a href="#" target="_blank">
@@ -274,6 +279,11 @@
 			<!-- /#projects-compact-view -->
 		</section>
 		<!-- /#projects -->
+
+		<section id="contact">
+			
+		</section>
+		<!-- /#contact -->
 	</main>
 
 	<!-- Custom Script -->

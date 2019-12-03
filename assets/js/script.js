@@ -9,6 +9,13 @@
     }
   );
 
+  $('#projects-sub-navbar-back').on('click', function()
+    {
+      $('#welcome-section').show();
+      $('#projects').hide();
+    }
+    );
+
 // Projects View
   $('#projects-compact').on('click', function()
     {

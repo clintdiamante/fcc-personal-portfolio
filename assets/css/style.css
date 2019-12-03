@@ -27,9 +27,26 @@
 		margin-bottom: 0;
 	}
 
+	/* Hover Angle Effect */
+		.project-list-hidden {
+			display: none;
+		}
+
+		.welcome-nav-links:hover .project-list-hidden {
+			display: inline;
+		}
+
+		.project-tile > a:hover .project-list-hidden {
+			display: inline;
+		}
+
+		#project-list > li > a:hover .project-list-hidden {
+			display: inline;
+		}
+
 	/* Sub Navbar */
 		#navbar {
-			/*position: fixed;*/
+			
 		}
 
 		.sub-navbar > ul {
@@ -41,9 +58,14 @@
 			display: inline;
 		}
 
+		.sub-navbar-link {
+			color: #000;
+		}
+
 		.sub-navbar-link:hover {
+			color: #000;
 			cursor: pointer;
-			text-decoration: underline;
+			text-decoration: none;
 		}
 
 		.fa-angle-left,
@@ -61,6 +83,8 @@
 		align-items: center;
 		
 		text-align: center;
+
+		padding: 0 40px 0 40px;
 	}
 
 	#welcome-text > h1 {
@@ -88,21 +112,19 @@
 		margin-top: 20px;
 	}
 
-	#welcome-nav > li:first-child,
-	#welcome-nav > li:nth-child(2) {
+	#welcome-nav > li:first-child {
 		margin-bottom: 10px;
 	}
 
 	.welcome-nav-links:hover {
 		cursor: pointer;
-		text-decoration: underline;
 	}
 
 /* Project Section */
 	#projects {
 		background-color: #FFF;
 		padding: 20px;
-		/*display: none;*/
+		display: none;
 	}
 
 	#projects-nav > div:nth-child(2) > h3 {
@@ -114,6 +136,7 @@
 			list-style: none;
 			text-align: center;
 			margin-top: 15px;
+			margin-bottom: 0;
 		}
 
 		#projects-view-style > li {
@@ -147,20 +170,12 @@
 			margin-bottom: 10px;
 		}
 
-		.project-list-hidden {
-			display: none;
-		}
-
 		#project-list > li > a {
 			color: #000;
 		}
 
 		#project-list > li > a:hover {
 			text-decoration: none;
-		}
-
-		#project-list > li > a:hover .project-list-hidden {
-		display: inline;
 		}
 
 	/* Project Tile */
@@ -173,6 +188,4 @@
 			text-decoration: none;
 		}
 
-		.project-tile > a:hover .project-list-hidden {
-			display: inline;
-		}
+/* Contact Section */
