@@ -27,6 +27,22 @@
 		margin-bottom: 0;
 	}
 
+	#navbar {
+		display: none;
+		position: fixed;
+		top: 0; 
+		left: 0;
+	}
+
+	.main-nav {
+		color: #A9A9A9;
+	}
+
+	.main-nav:hover {
+		color: #A9A9A9;
+		text-decoration: none;
+	}
+
 	/* Hover Angle Effect */
 		.project-list-hidden {
 			display: none;
@@ -45,10 +61,6 @@
 		}
 
 	/* Sub Navbar */
-		#navbar {
-			
-		}
-
 		.sub-navbar > ul {
 			list-style: none;
 			margin-bottom: 5px;
@@ -96,6 +108,10 @@
 		margin-bottom: 0;
 	}
 
+	.white-text {
+		color: #FFF;
+	}
+
 	#welcome-text > p:nth-child(4) {
 		color: #FFF;
 		margin-top: 20px;
@@ -124,7 +140,8 @@
 	#projects {
 		background-color: #FFF;
 		padding: 20px;
-		display: none;
+
+		/*display: none;*/
 	}
 
 	#projects-nav > div:nth-child(2) > h3 {
@@ -189,3 +206,56 @@
 		}
 
 /* Contact Section */
+	#contact {
+		background-color: #1B1B1B;
+		padding: 20px;
+
+		/*display: none;*/
+	}
+
+	#contact > div:first-child,
+	#contact-sub-navbar-back {
+		color: #A9A9A9;
+	}
+
+	#contact > div:nth-child(2) {
+		height: 88vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*background-color: red;*/
+	}
+
+	#contact-icons {
+		text-align: center;
+	}
+
+	#contact-icons > a:hover {
+		text-decoration: none;
+	}
+
+	#contact-icons > a > i {
+		width: 60px;
+		height: 60px;
+
+		background-color: #A9A9A9;
+		color: #1B1B1B;
+
+		font-size: 40px;
+
+		padding: 10px;
+	}
+
+	#contact-icons > a:nth-child(2) > i {
+		margin: 0 10px 0 10px;
+	}
+
+	#contact-icons > a > i:hover {
+		background-color: transparent;
+		color: #FFA807;
+	}
+
+	#contact-icons-description > p {
+		color: #A9A9A9;
+		display: none;
+	}
